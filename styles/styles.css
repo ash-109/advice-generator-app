@@ -35,12 +35,16 @@ letter-spacing: 2px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     position: relative;
 }
 #advice_id{
     color: var(--Neon-Green);
+}
+#advice{
+    color: var(--Light-Cyan);
+    font-weight: 800;
 }
 button{
     background: var(--Neon-Green);
